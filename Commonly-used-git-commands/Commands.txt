@@ -1,0 +1,18 @@
+1. git init
+- this initializes new Git repository in directory 
+
+2. git status 
+- check the status. which shows the files that have been changed or added.
+
+While you are working with Local Repository
+1. git init [ this initializes git(Version Control System) ]
+2. git status [checks the status. which shows the files that have been changed or added.]
+3. git add [(git add .) adds all changes  & (git add filename) adds specific file instead of everything]
+4. git commit -m "Your commit message" [this adds commit message to the file]
+5. git log [shows what commit has be made]
+6. git diff car.txt [shows the differences in Working directory(changes you've made) vs. Staging area (unstaged changes)]
+7. git restore car.txt [discards cahanges and restore it to last commited version]
+
+While you are working with the Remote Repository 
+1. git remote add origin <your remote repository link> [used to link your local Git repository to a remote repository]
+2. git push -u origin master [pushes your local branch (master) to the remote repository (origin)]
